@@ -2,9 +2,7 @@
 
 ## Setup 
 
-You need the Google App Engine java sdk.  You can get it from:
-
-http://googleappengine.googlecode.com/files/appengine-java-sdk-1.3.3.zip
+You need the Google App Engine java sdk.  You can get it [here](http://googleappengine.googlecode.com/files/appengine-java-sdk-1.3.3.zip).
 
 After downloading and extracting it, make sure you add the bin directory to your PATH.  You will also need to install [leiningen](http://github.com/technomancy/leiningen) before you begin.  Once you have completed the install simply run 
 
@@ -16,6 +14,6 @@ After downloading and extracting it, make sure you add the bin directory to your
 
 To start the app run:
 
-   dev_appserver.sh war
+    dev_appserver.sh war
 
-and visit `http://localhost:8080`
+and visit [http://localhost:8080](http://localhost:8080)
