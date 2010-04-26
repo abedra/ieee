@@ -8,6 +8,7 @@ After downloading and extracting it, make sure you add the bin directory to your
 
     lein deps
     cp path/to/appengine/lib/appengine-tools-api.jar war/WEB-INF/lib
+    cp path/to/appengine/lib/user/appengine-api-1.0-sdk-1.3.3.jar war/WEB-INF/lib
     lein compile
 
 ## Running the application locally

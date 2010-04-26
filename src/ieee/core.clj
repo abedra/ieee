@@ -1,14 +1,13 @@
 (ns ieee.core
-  (:use compojure.http
-        compojure.html)
+  (:use [compojure.http servlet routes])
+  (:use compojure.html
+        ieee.pages.layout)
+  (:import com.google.appengine.api.users.UserServiceFactory)
   (:gen-class :extends javax.servlet.http.HttpServlet))
 
 (defn index
   [request]
-  (html
-   (doctype :html4)
-   [:head (include-css "/stylesheets/screen.css")]
-   [:body "Hello"]))
+  (render "Hello"))
 
 (defroutes webservice
   (GET "/" index)
